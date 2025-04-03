@@ -31,7 +31,7 @@ function Contacts(){
                         </div>
                         <div>
                             <div className="fw-bold">Facebook</div>
-                            <a className="text-color-2 text-decoration-none" href="https://www.facebook.com/Kentadriane" target="_blank">Kent Adriane Goc-ong</a>
+                            <a className="text-color-2 text-decoration-none" href="https://www.facebook.com/Kentadriane" target="_blank" rel="noopener noreferrer">Kent Adriane Goc-ong</a>
                         </div>
                     </div>
                 </div>

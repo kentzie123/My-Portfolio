@@ -43,7 +43,7 @@ function Certificates() {
                             {cert.title}
                         </div>
                         <div className="card-body text-success overflow-hidden">
-                            <img
+                            <image
                                 className="cert-img card-img"
                                 src={require(`../assets/img/${cert.certImgUrl}.jpg`)}
                                 onClick={() => certModal(cert.certImgUrl)}

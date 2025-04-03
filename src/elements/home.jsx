@@ -8,7 +8,7 @@ function Home() {
                 <div className='home-info col-lg-7 mt-lg-0 mt-5'>
                     <div className='d-flex justify-content-center'>
                         <div className='w-75 text-md-start text-center'>
-                            <h1 className='fw-bold text-color-1'>Web Developer <span><img className='waving' src={wavingHands} alt="waving-hands" /></span></h1>
+                            <h1 className='fw-bold text-color-1'>Web Developer <span><image className='waving' src={wavingHands} alt="waving-hands" /></span></h1>
                             <p className='text-color-2'>Hi, I'm <strong>Kent Adriane Goc-ong</strong>, a <strong>Web Developer</strong> passionate about turning ideas into reality. Excited to bring your digital vision to life! 🚀</p>
                             <div className='socials'>
                                 <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/kent-adriane-goc-ong-6ba0a92a7/">
@@ -25,7 +25,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <img className='profile' src={myprofile} alt="Profile Picture" />
+                <image className='profile' src={myprofile} alt="Profile Picture" />
             </div>
         </section>
     )
