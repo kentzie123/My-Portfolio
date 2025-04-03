@@ -40,7 +40,7 @@ function Projects() {
                                 <div className="card shadow-sm p-3" key={index}>
                                     <div className={`row g-0 ${index % 2 === 0 ? "flex-row-reverse" : "flex-row"}`}>
                                         <div className="project-img overflow-hidden shadow-sm border border-2 rounded-2 col-md-6" style={{ height: "500px" }}>
-                                            <image src={project.projectImage} className="img-fluid" alt="..." />
+                                            <img src={project.projectImage} className="img-fluid" alt="..." />
                                         </div>
                                         <div className="col-md-6 px-lg-5 px-2 d-flex align-items-center">
                                             <div className="card-body text-center">
@@ -50,7 +50,7 @@ function Projects() {
                                                     {
                                                         project.languageUsed.map((lang, idx) => {
                                                             return (
-                                                                <image className="project-language" key={idx} src={require(`../assets/img/${lang}.png`)} alt="" />
+                                                                <img className="project-language" key={idx} src={require(`../assets/img/${lang}.png`)} alt="" />
                                                             );
                                                         })
                                                     }
